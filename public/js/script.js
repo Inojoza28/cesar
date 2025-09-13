@@ -93,7 +93,7 @@ async function renderAulasDoDia() {
 
     for (const cls of todayClasses) {
     const card = document.createElement('article');
-    card.className = 'relative overflow-hidden rounded-2xl border border-orange-100 bg-orange-50 p-6 sm:p-7 shadow-soft hover:shadow-lg transition';
+    card.className = 'relative overflow-hidden rounded-2xl border border-orange-200 bg-orange-50 p-6 sm:p-7 shadow-md shadow-orange-100/50 hover:shadow-xl hover:shadow-orange-200/50 transition';
     card.innerHTML = `
         <div class="flex flex-col gap-4 h-full justify-between">
         <div>
