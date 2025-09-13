@@ -1,0 +1,13 @@
+{
+  "config": {
+    "timezone": "America/Recife",
+    "baseDate": "2025-09-02"
+  },
+  "classes": [
+    { "weekday": "Mon", "title": "Data Science I", "teacher": "Profa. Ana Lima", "start": "19:00", "end": "22:00", "link": "https://meet.google.com/abc-defg-hij" },
+    { "weekday": "Tue", "title": "Arquitetura de Software", "teacher": "Prof. Bruno Silva", "start": "19:00", "end": "22:00", "link": "https://meet.google.com/xyz-1234-aaa" },
+    { "weekday": "Thu", "title": "UX Research", "teacher": "Profa. Carla Nunes", "start": "19:00", "end": "22:00", "link": "https://meet.google.com/yyy-zzzz-kkk" },
+
+    { "weekday": "Sat", "title": "Visão Geral de IA e Análise de Dados", "teacher": "Prof. Daniel Souza", "start": "08:00", "end": "12:00", "link": "https://meet.google.com/sabado-test" }
+  ]
+}
