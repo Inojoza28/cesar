@@ -1,7 +1,7 @@
 {
   "config": {
     "timezone": "America/Recife",
-    "baseDate": "2025-09-02"
+    "baseDate": "2025-09-16"
   },
   "classes": [
     { "weekday": "Mon", "title": "Data Science I", "teacher": "Profa. Ana Lima", "start": "19:00", "end": "22:00", "link": "https://meet.google.com/abc-defg-hij" },

@@ -61,7 +61,7 @@ async function renderAulasDoDia() {
     subtitle.textContent = `Hoje: ${formatDateBR(now)}`;
 
     // --- 🟠 Verifica ciclo 2 semanas com aula / 1 semana de pausa
-    const baseDate = new Date(data?.config?.baseDate || '2025-09-02');
+    const baseDate = new Date(data?.config?.baseDate || '2025-09-16');
     const diffWeeks = Math.floor((now - baseDate) / (1000 * 60 * 60 * 24 * 7));
     const isBreakWeek = diffWeeks % 3 === 2; // 0 e 1 = aula, 2 = pausa
 
