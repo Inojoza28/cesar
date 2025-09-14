@@ -83,13 +83,21 @@ async function renderAulasDoDia() {
     });
 
     if (!todayClasses.length) {
-      list.innerHTML = `
-        <div class="rounded-2xl border border-gray-200 bg-white p-6">
-          <p class="text-gray-700">📌 Não há aulas hoje (dia livre).</p>
-        </div>
-      `;
-      return;
-    }
+    list.innerHTML = `
+      <div class="rounded-2xl border border-orange-200 bg-gradient-to-br from-orange-50 via-orange-50/80 to-white p-10 text-center shadow-md shadow-orange-100/40">
+        <i data-lucide="calendar-x" class="w-11 h-11 mx-auto mb-4 text-orange-400 opacity-90"></i>
+        <p class="text-gray-800 text-lg sm:text-xl font-semibold">
+          Não há aulas hoje
+        </p>
+        <p class="text-gray-600 text-sm sm:text-base mt-2">
+          Aproveite o dia livre para descansar ou se organizar 
+        </p>
+      </div>
+    `;
+    if (window.lucide) lucide.createIcons();
+    return;
+  }
+
 
     for (const cls of todayClasses) {
     const card = document.createElement('article');
