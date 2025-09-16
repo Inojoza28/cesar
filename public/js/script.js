@@ -84,15 +84,21 @@ async function renderAulasDoDia() {
 
     if (!todayClasses.length) {
     list.innerHTML = `
-      <div class="rounded-2xl border border-orange-200 bg-gradient-to-br from-orange-50 via-orange-50/80 to-white p-10 text-center shadow-md shadow-orange-100/40">
-        <i data-lucide="calendar-x" class="w-11 h-11 mx-auto mb-4 text-orange-400 opacity-90"></i>
-        <p class="text-gray-800 text-lg sm:text-xl font-semibold">
-          Não há aulas hoje
-        </p>
-        <p class="text-gray-600 text-sm sm:text-base mt-2">
-          Aproveite o dia livre para descansar ou se organizar 
-        </p>
-      </div>
+      <div class="rounded-2xl border border-orange-200 dark:border-[rgb(255_131_45_/_82%)] bg-gradient-to-br from-orange-50 via-orange-50/80 to-white dark:from-gray-800 dark:via-gray-800/90 dark:to-gray-900 p-10 text-center shadow-md shadow-orange-100/40 dark:shadow-black/10 transition-colors">
+
+      <i data-lucide="calendar-x" 
+        class="w-11 h-11 mx-auto mb-4 text-orange-400 dark:text-[rgb(255_131_45)] opacity-90">
+      </i>
+
+      <p class="text-gray-800 dark:text-white text-lg sm:text-xl font-semibold">
+        Não há aulas hoje
+      </p>
+
+      <p class="text-gray-600 dark:text-gray-300 text-sm sm:text-base mt-2">
+        Aproveite o dia livre para descansar ou se organizar 
+      </p>
+    </div>
+
     `;
     if (window.lucide) lucide.createIcons();
     return;
@@ -100,30 +106,45 @@ async function renderAulasDoDia() {
 
 
     for (const cls of todayClasses) {
-    const card = document.createElement('article');
-    card.className = 'relative overflow-hidden rounded-2xl border border-orange-200 bg-orange-50 p-6 sm:p-7 shadow-md shadow-orange-100/50 hover:shadow-xl hover:shadow-orange-200/50 transition';
-    card.innerHTML = `
-        <div class="flex flex-col gap-4 h-full justify-between">
-        <div>
-            <div class="flex items-center gap-3 mb-2">
-            <i data-lucide="book-open" class="w-6 h-6 text-orange-500 shrink-0"></i>
-            <h3 class="text-lg sm:text-xl font-semibold text-gray-900">${cls.title || 'Aula'}</h3>
-            </div>
-            <p class="text-gray-700 text-sm sm:text-base">Professor(a): <span class="font-medium">${cls.teacher || '-'}</span></p>
-            <p class="text-gray-700 text-sm sm:text-base">Horário: ${cls.start || ''} — ${cls.end || ''}</p>
-        </div>
+      const card = document.createElement('article');
+      card.className = ` relative overflow-hidden rounded-2xl border border-orange-200 dark:border-[rgb(255_131_45_/_82%)] bg-orange-50 dark:bg-gray-800/80 p-6 sm:p-7 shadow-md shadow-orange-100/50 dark:shadow-black/10 hover:shadow-xl hover:shadow-orange-200/50 transition`;
 
-        ${cls.link ? `
+      card.innerHTML = `
+        <div class="flex flex-col gap-4 h-full justify-between">
+          <div>
+            <div class="flex items-center gap-3 mb-2">
+              <i data-lucide="book-open" 
+                class="w-6 h-6 text-orange-500 dark:text-[rgb(255_131_45)] shrink-0">
+              </i>
+              <h3 class="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white">
+                ${cls.title || 'Aula'}
+              </h3>
+            </div>
+            <p class="text-gray-700 dark:text-gray-300 text-sm sm:text-base">
+              Professor(a): <span class="font-medium">${cls.teacher || '-'}</span>
+            </p>
+            <p class="text-gray-700 dark:text-gray-300 text-sm sm:text-base">
+              Horário: ${cls.start || ''} — ${cls.end || ''}
+            </p>
+          </div>
+
+          ${
+            cls.link
+              ? `
             <a href="${cls.link}" target="_blank" rel="noopener"
-            class="mt-4 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-brand-orange text-white font-medium hover:opacity-90 text-sm sm:text-base">
-            <i data-lucide="external-link" class="w-4 h-4"></i>
-            Entrar na aula
+              class="mt-4 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-brand-orange dark:bg-[rgb(255_131_45_/_82%)] text-white font-medium hover:opacity-90 text-sm sm:text-base transition">
+              <i data-lucide="external-link" class="w-4 h-4"></i>
+              Entrar na aula
             </a>
-        ` : ''}
+          `
+              : ''
+          }
         </div>
-    `;
-    list.appendChild(card);
+      `;
+
+      list.appendChild(card);
     }
+
 
     if (window.lucide) lucide.createIcons();
   } catch (e) {
