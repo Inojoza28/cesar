@@ -60,20 +60,6 @@ async function renderAulasDoDia() {
     }).format(now);
     subtitle.textContent = `Hoje: ${formatDateBR(now)}`;
 
-    // --- 🟠 Verifica ciclo 2 semanas com aula / 1 semana de pausa
-    const baseDate = new Date(data?.config?.baseDate || '2025-09-16');
-    const diffWeeks = Math.floor((now - baseDate) / (1000 * 60 * 60 * 24 * 7));
-    const isBreakWeek = diffWeeks % 3 === 2; // 0 e 1 = aula, 2 = pausa
-
-    if (isBreakWeek) {
-      list.innerHTML = `
-        <div class="rounded-2xl border border-gray-200 bg-white p-6">
-          <p class="text-gray-700">📌 Não há aulas esta semana (semana de pausa).</p>
-        </div>
-      `;
-      return;
-    }
-
     // --- 🟢 Filtra aulas do dia
     const weekday = new Intl.DateTimeFormat('en-US', { weekday: 'short', timeZone: tz }).format(now);
     const todayClasses = (data.classes || []).filter(c => {
@@ -83,31 +69,35 @@ async function renderAulasDoDia() {
     });
 
     if (!todayClasses.length) {
-    list.innerHTML = `
-      <div class="rounded-2xl border border-orange-200 dark:border-[rgb(255_131_45_/_82%)] bg-gradient-to-br from-orange-50 via-orange-50/80 to-white dark:from-gray-800 dark:via-gray-800/90 dark:to-gray-900 p-10 text-center shadow-md shadow-orange-100/40 dark:shadow-black/10 transition-colors">
+      list.innerHTML = `
+        <div class="rounded-2xl border border-orange-200 dark:border-[rgb(255_131_45_/_82%)]
+        bg-gradient-to-br from-orange-50 via-orange-50/80 to-white
+        dark:from-gray-800 dark:via-gray-800/90 dark:to-gray-900
+        p-10 text-center shadow-md shadow-orange-100/40 dark:shadow-black/10 transition-colors">
 
-      <i data-lucide="calendar-x" 
-        class="w-11 h-11 mx-auto mb-4 text-orange-400 dark:text-[rgb(255_131_45)] opacity-90">
-      </i>
+          <i data-lucide="calendar-x" 
+            class="w-11 h-11 mx-auto mb-4 text-orange-400 dark:text-[rgb(255_131_45)] opacity-90">
+          </i>
 
-      <p class="text-gray-800 dark:text-white text-lg sm:text-xl font-semibold">
-        Não há aulas hoje
-      </p>
+          <p class="text-gray-800 dark:text-white text-lg sm:text-xl font-semibold">
+            Não há aulas hoje
+          </p>
 
-      <p class="text-gray-600 dark:text-gray-300 text-sm sm:text-base mt-2">
-        Aproveite o dia livre para descansar ou se organizar 
-      </p>
-    </div>
+          <p class="text-gray-600 dark:text-gray-300 text-sm sm:text-base mt-2">
+            Aproveite o dia livre para descansar ou se organizar 
+          </p>
+        </div>
+      `;
+      if (window.lucide) lucide.createIcons();
+      return;
+    }
 
-    `;
-    if (window.lucide) lucide.createIcons();
-    return;
-  }
-
-
+    // --- Renderiza os cards das aulas
     for (const cls of todayClasses) {
       const card = document.createElement('article');
-      card.className = ` relative overflow-hidden rounded-2xl border border-orange-200 dark:border-[rgb(255_131_45_/_82%)] bg-orange-50 dark:bg-gray-800/80 p-6 sm:p-7 shadow-md shadow-orange-100/50 dark:shadow-black/10 hover:shadow-xl hover:shadow-orange-200/50 transition`;
+      card.className = `relative overflow-hidden rounded-2xl border border-orange-200 dark:border-[rgb(255_131_45_/_82%)]
+        bg-orange-50 dark:bg-gray-800/80 p-6 sm:p-7 shadow-md shadow-orange-100/50
+        dark:shadow-black/10 hover:shadow-xl hover:shadow-orange-200/50 transition`;
 
       card.innerHTML = `
         <div class="flex flex-col gap-4 h-full justify-between">
@@ -120,10 +110,22 @@ async function renderAulasDoDia() {
                 ${cls.title || 'Aula'}
               </h3>
             </div>
+
             <p class="text-gray-700 dark:text-gray-300 text-sm sm:text-base">
               Professor(a): <span class="font-medium">${cls.teacher || '-'}</span>
             </p>
-            <p class="text-gray-700 dark:text-gray-300 text-sm sm:text-base">
+
+            ${cls.email ? `
+            <p class="mt-2 text-gray-600 dark:text-gray-400 text-xs sm:text-sm">
+              <span class="font-medium">E-mail do professor(a):</span>
+              <a href="mailto:${cls.email}" 
+                class="ml-1 underline hover:text-orange-600 dark:hover:text-orange-400 transition-colors">
+                ${cls.email}
+              </a>
+            </p>` : ''}
+
+
+            <p class="text-gray-700 dark:text-gray-300 text-sm sm:text-base mt-1">
               Horário: ${cls.start || ''} — ${cls.end || ''}
             </p>
           </div>
@@ -136,15 +138,13 @@ async function renderAulasDoDia() {
               <i data-lucide="external-link" class="w-4 h-4"></i>
               Entrar na aula
             </a>
-          `
-              : ''
+          ` : ''
           }
         </div>
       `;
 
       list.appendChild(card);
     }
-
 
     if (window.lucide) lucide.createIcons();
   } catch (e) {
@@ -156,7 +156,6 @@ async function renderAulasDoDia() {
     `;
   }
 }
-
 
 initLinks();
 renderTodayPill();
