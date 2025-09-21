@@ -1,0 +1,111 @@
+{
+  "config": {
+    "timezone": "America/Recife"
+  },
+  "classes": [
+    { "title": "Visão Geral de IA e Análise de Dados", "teacher": "Rodrigo Paiva", "email": "rfapo@cesar.school", "date": "2025-09-22", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Visão Geral de IA e Análise de Dados", "teacher": "Rodrigo Paiva", "email": "rfapo@cesar.school", "date": "2025-09-23", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Visão Geral de IA e Análise de Dados", "teacher": "Rodrigo Paiva", "email": "rfapo@cesar.school", "date": "2025-09-25", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Visão Geral de IA e Análise de Dados", "teacher": "Rodrigo Paiva", "email": "rfapo@cesar.school", "date": "2025-09-29", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Visão Geral de IA e Análise de Dados", "teacher": "Rodrigo Paiva", "email": "rfapo@cesar.school", "date": "2025-09-30", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Visão Geral de IA e Análise de Dados", "teacher": "Rodrigo Paiva", "email": "rfapo@cesar.school", "date": "2025-10-02", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "ChatGPT na Prática", "teacher": "Rodrigo Rios", "email": "rrl@cesar.school", "date": "2025-10-13", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "ChatGPT na Prática", "teacher": "Rodrigo Rios", "email": "rrl@cesar.school", "date": "2025-10-14", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "ChatGPT na Prática", "teacher": "Rodrigo Rios", "email": "rrl@cesar.school", "date": "2025-10-16", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "ChatGPT na Prática", "teacher": "Rodrigo Rios", "email": "rrl@cesar.school", "date": "2025-10-20", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "ChatGPT na Prática", "teacher": "Rodrigo Rios", "email": "rrl@cesar.school", "date": "2025-10-21", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "ChatGPT na Prática", "teacher": "Rodrigo Rios", "email": "rrl@cesar.school", "date": "2025-10-23", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "Análise Prática com Planilhas", "teacher": "Victor Cabral", "email": null, "date": "2025-11-03", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Análise Prática com Planilhas", "teacher": "Victor Cabral", "email": null, "date": "2025-11-04", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Análise Prática com Planilhas", "teacher": "Victor Cabral", "email": null, "date": "2025-11-06", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Análise Prática com Planilhas", "teacher": "Victor Cabral", "email": null, "date": "2025-11-10", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Análise Prática com Planilhas", "teacher": "Victor Cabral", "email": null, "date": "2025-11-11", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Análise Prática com Planilhas", "teacher": "Victor Cabral", "email": null, "date": "2025-11-13", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "Fundamentos de Análise de Dados", "teacher": "Laura Alves", "email": "laps@cesar.school", "date": "2025-12-01", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Fundamentos de Análise de Dados", "teacher": "Laura Alves", "email": "laps@cesar.school", "date": "2025-12-02", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Fundamentos de Análise de Dados", "teacher": "Laura Alves", "email": "laps@cesar.school", "date": "2025-12-04", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Fundamentos de Análise de Dados", "teacher": "Laura Alves", "email": "laps@cesar.school", "date": "2025-12-09", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Fundamentos de Análise de Dados", "teacher": "Laura Alves", "email": "laps@cesar.school", "date": "2025-12-10", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Fundamentos de Análise de Dados", "teacher": "Laura Alves", "email": "laps@cesar.school", "date": "2025-12-11", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "Introdução a Linguagens de Consulta", "teacher": "Eduardo Arruda", "email": "ena@cesar.school", "date": "2026-01-05", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Introdução a Linguagens de Consulta", "teacher": "Eduardo Arruda", "email": "ena@cesar.school", "date": "2026-01-06", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Introdução a Linguagens de Consulta", "teacher": "Eduardo Arruda", "email": "ena@cesar.school", "date": "2026-01-08", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Introdução a Linguagens de Consulta", "teacher": "Eduardo Arruda", "email": "ena@cesar.school", "date": "2026-01-12", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Introdução a Linguagens de Consulta", "teacher": "Eduardo Arruda", "email": "ena@cesar.school", "date": "2026-01-13", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Introdução a Linguagens de Consulta", "teacher": "Eduardo Arruda", "email": "ena@cesar.school", "date": "2026-01-15", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "Introdução a Big Data", "teacher": "Pedro Henrique Magalhães Braga e Felipe", "email": "phmb@cesar.org.br; fra@cesar.org.br", "date": "2026-01-26", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Introdução a Big Data", "teacher": "Pedro Henrique Magalhães Braga e Felipe", "email": "phmb@cesar.org.br; fra@cesar.org.br", "date": "2026-01-27", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Introdução a Big Data", "teacher": "Pedro Henrique Magalhães Braga e Felipe", "email": "phmb@cesar.org.br; fra@cesar.org.br", "date": "2026-01-29", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Introdução a Big Data", "teacher": "Pedro Henrique Magalhães Braga e Felipe", "email": "phmb@cesar.org.br; fra@cesar.org.br", "date": "2026-02-02", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Introdução a Big Data", "teacher": "Pedro Henrique Magalhães Braga e Felipe", "email": "phmb@cesar.org.br; fra@cesar.org.br", "date": "2026-02-03", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Introdução a Big Data", "teacher": "Pedro Henrique Magalhães Braga e Felipe", "email": "phmb@cesar.org.br; fra@cesar.org.br", "date": "2026-02-05", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "Fundamentos de Machine Learning", "teacher": "João Paulo Magalhães", "email": "jp@cesar.school", "date": "2026-02-23", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Fundamentos de Machine Learning", "teacher": "João Paulo Magalhães", "email": "jp@cesar.school", "date": "2026-02-24", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Fundamentos de Machine Learning", "teacher": "João Paulo Magalhães", "email": "jp@cesar.school", "date": "2026-02-26", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Fundamentos de Machine Learning", "teacher": "João Paulo Magalhães", "email": "jp@cesar.school", "date": "2026-03-02", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Fundamentos de Machine Learning", "teacher": "João Paulo Magalhães", "email": "jp@cesar.school", "date": "2026-03-03", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Fundamentos de Machine Learning", "teacher": "João Paulo Magalhães", "email": "jp@cesar.school", "date": "2026-03-05", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "Modelos e Aplicações em Machine Learning", "teacher": "Matheus Lacerda", "email": "msl3@cesar.school", "date": "2026-03-16", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Modelos e Aplicações em Machine Learning", "teacher": "Matheus Lacerda", "email": "msl3@cesar.school", "date": "2026-03-17", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Modelos e Aplicações em Machine Learning", "teacher": "Matheus Lacerda", "email": "msl3@cesar.school", "date": "2026-03-19", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Modelos e Aplicações em Machine Learning", "teacher": "Matheus Lacerda", "email": "msl3@cesar.school", "date": "2026-03-23", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Modelos e Aplicações em Machine Learning", "teacher": "Matheus Lacerda", "email": "msl3@cesar.school", "date": "2026-03-24", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Modelos e Aplicações em Machine Learning", "teacher": "Matheus Lacerda", "email": "msl3@cesar.school", "date": "2026-03-26", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "IA Generativa e Grandes Modelos de Linguagem", "teacher": "Jayne Morais", "email": "jms5@cesar.school", "date": "2026-04-06", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "IA Generativa e Grandes Modelos de Linguagem", "teacher": "Jayne Morais", "email": "jms5@cesar.school", "date": "2026-04-07", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "IA Generativa e Grandes Modelos de Linguagem", "teacher": "Jayne Morais", "email": "jms5@cesar.school", "date": "2026-04-09", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "IA Generativa e Grandes Modelos de Linguagem", "teacher": "Jayne Morais", "email": "jms5@cesar.school", "date": "2026-04-13", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "IA Generativa e Grandes Modelos de Linguagem", "teacher": "Jayne Morais", "email": "jms5@cesar.school", "date": "2026-04-14", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "IA Generativa e Grandes Modelos de Linguagem", "teacher": "Jayne Morais", "email": "jms5@cesar.school", "date": "2026-04-16", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "Storytelling, Design Thinking e Agilidade com Dados", "teacher": "Rebeca Bivar", "email": "rab3@cesar.school", "date": "2026-04-27", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Storytelling, Design Thinking e Agilidade com Dados", "teacher": "Rebeca Bivar", "email": "rab3@cesar.school", "date": "2026-04-28", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Storytelling, Design Thinking e Agilidade com Dados", "teacher": "Rebeca Bivar", "email": "rab3@cesar.school", "date": "2026-04-30", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Storytelling, Design Thinking e Agilidade com Dados", "teacher": "Rebeca Bivar", "email": "rab3@cesar.school", "date": "2026-05-04", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Storytelling, Design Thinking e Agilidade com Dados", "teacher": "Rebeca Bivar", "email": "rab3@cesar.school", "date": "2026-05-05", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Storytelling, Design Thinking e Agilidade com Dados", "teacher": "Rebeca Bivar", "email": "rab3@cesar.school", "date": "2026-05-07", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "DataViz: Ferramentas para Visualização de Dados", "teacher": "Beatriz Bonafini", "email": "blf@cesar.school", "date": "2026-05-18", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "DataViz: Ferramentas para Visualização de Dados", "teacher": "Beatriz Bonafini", "email": "blf@cesar.school", "date": "2026-05-19", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "DataViz: Ferramentas para Visualização de Dados", "teacher": "Beatriz Bonafini", "email": "blf@cesar.school", "date": "2026-05-21", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "DataViz: Ferramentas para Visualização de Dados", "teacher": "Beatriz Bonafini", "email": "blf@cesar.school", "date": "2026-05-25", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "DataViz: Ferramentas para Visualização de Dados", "teacher": "Beatriz Bonafini", "email": "blf@cesar.school", "date": "2026-05-26", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "DataViz: Ferramentas para Visualização de Dados", "teacher": "Beatriz Bonafini", "email": "blf@cesar.school", "date": "2026-05-28", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "Governança, Legislação e Ética", "teacher": "Manoela Vasconcelos", "email": "mgcv@cesar.school", "date": "2026-06-01", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Governança, Legislação e Ética", "teacher": "Manoela Vasconcelos", "email": "mgcv@cesar.school", "date": "2026-06-02", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Governança, Legislação e Ética", "teacher": "Manoela Vasconcelos", "email": "mgcv@cesar.school", "date": "2026-06-03", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Governança, Legislação e Ética", "teacher": "Manoela Vasconcelos", "email": "mgcv@cesar.school", "date": "2026-06-08", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Governança, Legislação e Ética", "teacher": "Manoela Vasconcelos", "email": "mgcv@cesar.school", "date": "2026-06-09", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Governança, Legislação e Ética", "teacher": "Manoela Vasconcelos", "email": "mgcv@cesar.school", "date": "2026-06-11", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "Tópicos Contemporâneos", "teacher": "Jamisson Freitas", "email": "jsf3@cesar.school", "date": "2026-06-29", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Tópicos Contemporâneos", "teacher": "Jamisson Freitas", "email": "jsf3@cesar.school", "date": "2026-06-30", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Tópicos Contemporâneos", "teacher": "Jamisson Freitas", "email": "jsf3@cesar.school", "date": "2026-07-02", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Tópicos Contemporâneos", "teacher": "Jamisson Freitas", "email": "jsf3@cesar.school", "date": "2026-07-06", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Tópicos Contemporâneos", "teacher": "Jamisson Freitas", "email": "jsf3@cesar.school", "date": "2026-07-07", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Tópicos Contemporâneos", "teacher": "Jamisson Freitas", "email": "jsf3@cesar.school", "date": "2026-07-09", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "Cases Práticos de Ciências de Dados Aplicada aos Negócios", "teacher": "Petrônio Braga", "email": "plb@cesar.school", "date": "2026-07-27", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Cases Práticos de Ciências de Dados Aplicada aos Negócios", "teacher": "Petrônio Braga", "email": "plb@cesar.school", "date": "2026-07-28", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Cases Práticos de Ciências de Dados Aplicada aos Negócios", "teacher": "Petrônio Braga", "email": "plb@cesar.school", "date": "2026-07-30", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Cases Práticos de Ciências de Dados Aplicada aos Negócios", "teacher": "Petrônio Braga", "email": "plb@cesar.school", "date": "2026-08-03", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Cases Práticos de Ciências de Dados Aplicada aos Negócios", "teacher": "Petrônio Braga", "email": "plb@cesar.school", "date": "2026-08-04", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Cases Práticos de Ciências de Dados Aplicada aos Negócios", "teacher": "Petrônio Braga", "email": "plb@cesar.school", "date": "2026-08-06", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+
+    { "title": "Projeto Integrador", "teacher": "Jamisson Freitas", "email": "jsf3@cesar.school", "date": "2026-08-17", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Projeto Integrador", "teacher": "Jamisson Freitas", "email": "jsf3@cesar.school", "date": "2026-08-18", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Projeto Integrador", "teacher": "Jamisson Freitas", "email": "jsf3@cesar.school", "date": "2026-08-20", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Projeto Integrador", "teacher": "Jamisson Freitas", "email": "jsf3@cesar.school", "date": "2026-08-24", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Projeto Integrador", "teacher": "Jamisson Freitas", "email": "jsf3@cesar.school", "date": "2026-08-25", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" },
+    { "title": "Projeto Integrador", "teacher": "Jamisson Freitas", "email": "jsf3@cesar.school", "date": "2026-08-27", "start": "19:00", "end": "22:00", "link": "https://cesar.zoom.us/j/85748089318" }
+  ]
+}
