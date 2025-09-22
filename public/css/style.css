@@ -17,8 +17,23 @@
     transform: translateY(0);
   }
 }
+
 .card-animate {
   opacity: 0;
-  animation: fade-up 0.8s ease-out forwards;
+  animation: fade-up 0.7s ease-out forwards;
 }
 
+/* Adiciona delays crescentes */
+.card-delay-1 { animation-delay: 0.1s; }
+.card-delay-2 { animation-delay: 0.2s; }
+.card-delay-3 { animation-delay: 0.3s; }
+.card-delay-4 { animation-delay: 0.4s; }
+.card-delay-5 { animation-delay: 0.5s; }
+.card-delay-6 { animation-delay: 0.6s; }
+.card-delay-7 { animation-delay: 0.7s; }
+
+
+.no-animations * {
+  transition: none !important;
+  animation: none !important;
+}
