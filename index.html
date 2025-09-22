@@ -72,7 +72,7 @@
     <section id="view-home" class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
       <!-- Card 1: Horário do dia -->
       <a href="#/horario" 
-        class="card-animate group relative overflow-hidden rounded-2xl 
+        class="card-animate card-delay-1 group relative overflow-hidden rounded-2xl 
               border border-orange-200 dark:border-[rgb(255_131_45_/_82%)] 
               bg-brand-orange dark:bg-[rgb(255_131_45_/_82%)] 
               text-white dark:text-white 
@@ -88,7 +88,7 @@
 
       <!-- Card 2: Calendário (claro) -->
       <a id="card-calendario" href="#" target="_blank" rel="noopener"
-        class="card-animate group relative overflow-hidden rounded-2xl 
+        class="card-animate card-delay-2 group relative overflow-hidden rounded-2xl 
               border border-orange-100 dark:border-gray-700 
               bg-orange-50 dark:bg-gray-800 
               p-6 sm:p-8 shadow-soft transition hover:scale-[1.02] hover:shadow-lg">
@@ -101,7 +101,7 @@
 
       <!-- Card 3: Portal Acadêmico -->
       <a id="card-portal" href="#" target="_blank" rel="noopener"
-        class="card-animate group relative overflow-hidden rounded-2xl 
+        class="card-animate card-delay-3 group relative overflow-hidden rounded-2xl 
               border border-orange-200 dark:border-[rgb(255_131_45_/_82%)] 
               bg-brand-orange dark:bg-[rgb(255_131_45_/_82%)] 
               text-white dark:text-white 
@@ -115,7 +115,7 @@
 
       <!-- Card 4: Classroom (claro) -->
       <a id="card-classroom" href="#" target="_blank" rel="noopener"
-        class="card-animate group relative overflow-hidden rounded-2xl 
+        class="card-animate card-delay-4 group relative overflow-hidden rounded-2xl 
               border border-orange-100 dark:border-gray-700 
               bg-orange-50 dark:bg-gray-800 
               p-6 sm:p-8 shadow-soft transition hover:scale-[1.02] hover:shadow-lg">
@@ -128,7 +128,7 @@
 
       <!-- Card 5: Especializações -->
       <a id="card-duvidas" href="#" target="_blank" rel="noopener"
-        class="card-animate group relative overflow-hidden rounded-2xl 
+        class="card-animate card-delay-5 group relative overflow-hidden rounded-2xl 
               border border-orange-200 dark:border-[rgb(255_131_45_/_82%)] 
               bg-brand-orange dark:bg-[rgb(255_131_45_/_82%)] 
               text-white dark:text-white 
@@ -142,7 +142,7 @@
 
       <!-- Card 6: Tutorial (claro) -->
       <a id="card-tutorial" href="#" target="_blank" rel="noopener"
-        class="card-animate group relative overflow-hidden rounded-2xl 
+        class="card-animate card-delay-6 group relative overflow-hidden rounded-2xl 
               border border-orange-100 dark:border-gray-700 
               bg-orange-50 dark:bg-gray-800 
               p-6 sm:p-8 shadow-soft transition hover:scale-[1.02] hover:shadow-lg">
@@ -152,6 +152,62 @@
         </div>
         <i data-lucide="book-open" class="absolute -bottom-3 -right-3 w-24 h-24 text-gray-800 dark:text-gray-200 opacity-10"></i>
       </a>
+
+      <!-- Card exclusivo: Assistente de Voz -->
+      <a id="card-voice" href="javascript:void(0)"
+        class="card-animate card-delay-7 hidden sm:block col-span-2 relative overflow-hidden rounded-2xl 
+              border border-orange-200 dark:border-orange-400/60
+              bg-gradient-to-br from-orange-50 via-white to-orange-100/30 
+              dark:from-gray-800 dark:via-gray-900 dark:to-gray-800
+              p-8 sm:p-10 shadow-md hover:shadow-lg 
+              transition transform hover:scale-[1.01]">
+
+        <div class="flex flex-col items-center text-center space-y-5">
+
+          <!-- Ícone microfone -->
+          <div class="relative">
+            <div class="absolute inset-0 rounded-full animate-ping bg-orange-400/20 dark:bg-orange-500/15"></div>
+            <div class="relative flex items-center justify-center w-16 h-16 sm:w-18 sm:h-18 
+                        rounded-full bg-orange-500 dark:bg-orange-400 shadow-md">
+              <i data-lucide="mic" class="w-8 h-8 sm:w-9 sm:h-9 text-white"></i>
+            </div>
+          </div>
+
+          <!-- Título + ícone de info -->
+          <div class="flex items-center gap-2">
+            <h2 class="text-xl sm:text-2xl font-bold text-gray-900 dark:text-gray-100">
+              Assistente de Voz
+            </h2>
+            <div class="relative group">
+              <i data-lucide="info" class="w-5 h-5 text-gray-500 dark:text-gray-400 cursor-pointer"></i>
+              <!-- Tooltip -->
+              <div class="absolute -top-16 left-1/2 -translate-x-1/2 w-56 
+                bg-gray-800 text-white text-xs rounded-lg px-3 py-2 
+                opacity-0 group-hover:opacity-100 transition 
+                pointer-events-none shadow-lg z-20">
+                Habilite os pop-ups do navegador para que as abas sejam abertas automaticamente.
+              </div>
+            </div>
+          </div>
+
+          <!-- Texto explicativo -->
+          <p class="text-gray-700 dark:text-gray-300 text-sm sm:text-base max-w-md leading-relaxed">
+            Clique no botão abaixo e diga  
+            <span class="font-semibold text-orange-600 dark:text-orange-400">"Hora de estudar"</span>.  
+            O portal abrirá automaticamente suas plataformas de estudo.
+          </p>
+
+          <!-- Botão -->
+          <button id="voice-start"
+            class="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg
+                  bg-orange-500 hover:bg-orange-600 dark:bg-orange-400 dark:hover:bg-orange-500
+                  text-white font-medium text-base shadow-sm hover:shadow-md transition">
+            <i data-lucide="play" class="w-4 h-4"></i>
+            Clique para falar
+          </button>
+        </div>
+      </a>
+
     </section>
 
 
@@ -267,7 +323,9 @@
       </p>
     </div>
   </footer>
+  
 
+<script src="public/js/voice-assistant.js"></script>
 <script src="public/js/buttons.js"></script>
 <script src="public/js/script.js"></script>
 <script>

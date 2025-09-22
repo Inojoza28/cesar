@@ -52,7 +52,7 @@ document.getElementById('fab-theme').addEventListener('click', () => {
   lucide.createIcons();
 
   // 🔄 Força reset das animações dos cards ao trocar de tema
-  document.querySelectorAll('#view-home .card-animate').forEach(card => {
+  document.querySelectorAll('#view-home').forEach(card => {
     card.style.animation = 'none';
     card.offsetHeight; // força reflow
     card.style.animation = '';
